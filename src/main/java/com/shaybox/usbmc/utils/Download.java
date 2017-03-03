@@ -6,12 +6,12 @@ import java.net.URL;
 public class Download {
 
     //Download Function
-    public static void Download(File file, URL url) throws IOException {
+    public Download(File file, URL url) throws IOException {
 
         InputStream in = new BufferedInputStream(url.openStream());
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         byte[] buf = new byte[1024];
-        int n = 0;
+        int n;
         while (-1!=(n=in.read(buf)))
         {
             out.write(buf, 0, n);
