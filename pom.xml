@@ -6,7 +6,7 @@
 
     <groupId>com.shaybox</groupId>
     <artifactId>usbmc</artifactId>
-    <version>Null</version>
+    <version>0.0.0</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
