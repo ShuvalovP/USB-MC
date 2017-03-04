@@ -55,7 +55,7 @@ public class Sync {
 
     private static void Transfer(File usbmc) throws IOException {
 
-        if (Config.prop.getProperty("sync-launcher-profiles").equalsIgnoreCase("true")) {
+        if (Config.prop.getProperty("sync-launcher-profiles").equalsIgnoreCase("false")) {
             if (new File(usbmc + "/launcher_profiles.json").exists()) {
                 Copy.File(new File(usbmc + "/launcher_profiles.json"), new File(usbmc + "/launcher_profiles.json.backup"));
             }
@@ -67,7 +67,7 @@ public class Sync {
             oldTransfer(usbmc);
         }
 
-        if (Config.prop.getProperty("sync-launcher-profiles").equalsIgnoreCase("true")) {
+        if (Config.prop.getProperty("sync-launcher-profiles").equalsIgnoreCase("false")) {
             if (new File(usbmc + "/launcher_profiles.json.backup").exists()) {
                 Copy.File(new File(usbmc + "/launcher_profiles.json.backup"), new File(usbmc + "/launcher_profiles.json"));
             }

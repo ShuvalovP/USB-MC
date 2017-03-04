@@ -44,7 +44,7 @@ public class Config {
             //Debug Output
             System.out.println("Sync Profiles: " + prop.getProperty("sync-launcher-profiles"));
             System.out.println("Sync Status: " + prop.getProperty("sync-files"));
-            System.out.println("Sync Method: " + prop.getProperty("new-sync"));
+            System.out.println("Sync Method: " + prop.getProperty("sync-method"));
 
         } finally{
             if(input!=null){
