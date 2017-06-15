@@ -2,10 +2,9 @@
 
 A Simple Java Program That:  
 1. Creates The "USBMC" Folder  
-2. Creates The "AppData" Folder  
-3. Downloads The Alternate Minecraft Launcher  
-4. Launches The Alternate Minecraft Launcher With The "--workDir usbmc" Argument  
-6. Profit
+2. Downloads The Alternate Minecraft Launcher  
+3. Launches The Alternate Minecraft Launcher With The "--workDir usbmc" Argument  
+4. Profit
 
 Also as a BETA File syncing process that will re-sync your local .minecraft with the USBMC Folder, every time the jar is launched.  
 
